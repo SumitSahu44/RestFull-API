@@ -1,4 +1,5 @@
 const userModel = require('../models/user')
+// method for controll user registration 
 function userRegisterController(){
       return {
          index(req, res){
