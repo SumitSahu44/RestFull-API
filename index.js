@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 8888
 const route = require('./routes/web')  // this route containe all routes 
 const routeapi = require('./routes/api')  // this route containe all routes 
 const mongoose = require('mongoose');
+// db connecetivity code 
 mongoose.connect('mongodb://127.0.0.1:27017/RestAPI').then(()=>{
     console.log("mongo connected")
 }).catch(err =>{
