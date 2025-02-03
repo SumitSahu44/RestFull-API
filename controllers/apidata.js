@@ -3,6 +3,7 @@ const userModel = require('../models/user')
 function apiUsers()
 {
     return {
+               // for select all user from db
               async users(req,res)
               {
               
