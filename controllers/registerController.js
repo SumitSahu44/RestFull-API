@@ -24,9 +24,5 @@ function userRegisterController(){
   }
 
 
-  // without object 
-// function register(req,res){
-//       res.render('register')
-//   }
 
 module.exports = userRegisterController
