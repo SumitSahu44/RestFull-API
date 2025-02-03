@@ -25,7 +25,7 @@ function apiUsers()
         
                      }
                },
-
+              // delete user using their name 
              async deleteOne(req,res)
               {
                  const userName = req.params.name;
