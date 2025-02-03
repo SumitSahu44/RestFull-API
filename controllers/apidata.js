@@ -33,6 +33,7 @@ function apiUsers()
                  res.send(`deletde ${userdeleted}`)
 
               },
+        // update user name using their old name 
               async updateOne(req,res)
               {
                try{
