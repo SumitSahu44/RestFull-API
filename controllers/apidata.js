@@ -12,6 +12,7 @@ function apiUsers()
                   // res.send(a)
                    
               },
+        // select only one persone using their name 
               async userOne(req,res)
               {
                 const pa = req.params.name;
