@@ -9,6 +9,7 @@ form{
     margin: 30px auto;
     padding: 30px 50px;
     height: 65vh;
+    border:2px solid black;
 }
 
 input{
