@@ -20,7 +20,7 @@ app.set("view engine", "ejs")  // template engine
 
 
 
-// server listing cod 
+// server listing on that port number  
 app.listen(PORT, ()=>{
     console.log(`Server is listning on ${PORT}`)
 })
