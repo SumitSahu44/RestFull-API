@@ -2,6 +2,7 @@ const userModel = require('../models/user')
 // method for controll user registration 
 function userRegisterController(){
       return {
+            // register controler 
          index(req, res){
             res.render('register');
          },
