@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 8888
+const PORT = process.env.PORT || 5000
 const route = require('./routes/web')  // this route containe all routes 
 const routeapi = require('./routes/api')  // this route containe all routes 
 const mongoose = require('mongoose');
