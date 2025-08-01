@@ -7,5 +7,4 @@ route.get('/users', apiUsers().users)
 route.get('/user/delete/:name', apiUsers().deleteOne)
 route.get('/user/update', apiUsers().updateOne)
 
-
 module.exports = route;
